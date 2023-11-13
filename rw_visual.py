@@ -19,7 +19,7 @@ while True:
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 
-    plt.savefig('random_walk.png', bbox_inches='tight')
+    plt.show()
 
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
