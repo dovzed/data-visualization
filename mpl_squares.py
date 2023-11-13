@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 input_values = range(1, 6)
 squares = [1, 4, 9, 16, 25]
 
-plt.style.use('seaborn-v0_8-paper')
+plt.style.use('seaborn-v0_8-darkgrid')
 fig, ax = plt.subplots()
 ax.plot(input_values, squares, linewidth=3)
 
